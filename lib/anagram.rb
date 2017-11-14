@@ -8,5 +8,12 @@ def initialize(word)
 @wordArr = []
 end
 
+def match
+
+end
+
+
+
+
 
 end
