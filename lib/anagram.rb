@@ -18,6 +18,7 @@ wordTest.each do |word|
   end
 end
 
+end
 
 
 
