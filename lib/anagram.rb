@@ -10,7 +10,7 @@ end
 
 def match(word)
 
-words= word.split("").sort
+words= @word.split("").sort
 wordTest= %w(@wordArr).sort
 wordTest.each do |word|
   if !words.match?(word)
