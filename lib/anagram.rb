@@ -8,16 +8,17 @@ def initialize(word)
 @wordArr = []
 end
 
-def match(word)
+def match(array)
+word_let = self.word.split("")
+anagram = []
 
-words= @word.split("").sort
-wordTest= %w(@wordArr).sort
-wordTest.each do |word|
-  if !words.match?(word)
-    false
-  end
+array.each do |word|
+word_split= word.split("")
+if word_split.sort == word_let.sort
+  anagram << word
 end
-
+end
+anagram
 end
 
 
